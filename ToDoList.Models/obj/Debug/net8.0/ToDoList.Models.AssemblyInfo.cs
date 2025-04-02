@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("ToDoList.Backend")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("ToDoList.Models")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+694846cbd4e3e4fdd7f7ba4e17e4d19ab9046d48")]
-[assembly: System.Reflection.AssemblyProductAttribute("ToDoList.Backend")]
-[assembly: System.Reflection.AssemblyTitleAttribute("ToDoList.Backend")]
+[assembly: System.Reflection.AssemblyProductAttribute("ToDoList.Models")]
+[assembly: System.Reflection.AssemblyTitleAttribute("ToDoList.Models")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment クラスによって生成されました。
