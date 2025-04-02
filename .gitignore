@@ -477,7 +477,8 @@ $RECYCLE.BIN/
 *.lnk
 
 # IDE Generated Files
-/.idea
+.idea
 
 .vscode
 obj
+bin
