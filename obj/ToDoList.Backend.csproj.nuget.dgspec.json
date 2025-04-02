@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fujino.motoki22\\ToDoList.Backend\\ToDoList.Backend.csproj": {}
+    "c:\\Users\\fujino.motoki22\\ToDoList.Backend\\ToDoList.Backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fujino.motoki22\\ToDoList.Backend\\ToDoList.Backend.csproj": {
+    "c:\\Users\\fujino.motoki22\\ToDoList.Backend\\ToDoList.Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fujino.motoki22\\ToDoList.Backend\\ToDoList.Backend.csproj",
+        "projectUniqueName": "c:\\Users\\fujino.motoki22\\ToDoList.Backend\\ToDoList.Backend.csproj",
         "projectName": "ToDoList.Backend",
-        "projectPath": "C:\\Users\\fujino.motoki22\\ToDoList.Backend\\ToDoList.Backend.csproj",
+        "projectPath": "c:\\Users\\fujino.motoki22\\ToDoList.Backend\\ToDoList.Backend.csproj",
         "packagesPath": "C:\\Users\\fujino.motoki22\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fujino.motoki22\\ToDoList.Backend\\obj\\",
+        "outputPath": "c:\\Users\\fujino.motoki22\\ToDoList.Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fujino.motoki22\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,24 +45,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[8.0.2, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.2, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
