@@ -10,3 +10,10 @@ ToDoList のバックエンドリポジトリです。
 
 ## ローカルで立ち上げるcommand
 `dotnet run --project ToDoList`
+
+# DB を立ち上げる方法
+- `cd .\ToDoList\`
+- `docker build -t to-do-list-backend .`
+- `docker-compose up -d`
+
+それぞれのDBツールでアクセスする
