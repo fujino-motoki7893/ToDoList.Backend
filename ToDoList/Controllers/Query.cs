@@ -1,9 +1,10 @@
+using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using HotChocolate;
 using ToDoList.Backend.ToDoList.Models.Entities;
 using ToDoList.Models.DbContexts;
 
-namespace ToDoList.Controllers
+namespace ToDoList.Backend.ToDoList.Controllers
 {
     /// <summary>
     /// クエリクラス
@@ -13,7 +14,6 @@ namespace ToDoList.Controllers
         /// <summary>
         /// アイテムを取得するメソッド
         /// </summary>
-        public IQueryable<Item> GetItems([Service] ApplicationDbContext context) =>
-            context.Items;
+        public IQueryable<Item> GetItems([Service] ApplicationDbContext context) => context.Items;
     }
 }
