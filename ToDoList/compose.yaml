@@ -1,8 +1,18 @@
+version: '3'
+
+# ネットワーク定義を追加
+networks:
+  app-network:
+    driver: bridge
+    external: true  # 外部ネットワークを使用
+
 services:
-  postgres_ja:
+  # バックエンドサービス
+  backend:
+    image: postgres_ja
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.backend
     environment:
       POSTGRES_INITDB_ARGS: "--encoding=UTF-8 --locale=ja_JP.UTF-8"
       POSTGRES_USER: "postgres"
@@ -10,3 +20,21 @@ services:
     ports:
       - "5142:5432"
     container_name: postgres_ja
+    networks:
+      - app-network
+
+  # フロントエンドサービス
+  frontend:
+    image: to-do-list-frontend
+    build:
+      context: ..\..\ToDoList\.
+      dockerfile: Dockerfile.frontend
+    environment:
+      API_URL: http://backend:5432/graphql
+    ports:
+      - "3000:3000"
+    container_name: to-do-list-frontend
+    depends_on:
+      - backend
+    networks:
+      - app-network
