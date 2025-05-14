@@ -4,12 +4,13 @@ ToDoList のバックエンドリポジトリです。
 
 1. dotnet フレームワークの dotnet8 をインストールする。
     - [ここ](https://dotnet.microsoft.com/ja-jp/download/dotnet/8.0)からインストールしてください(mac windows それぞれ方法が違うので注意)
-2. `cd Digital.Emc.Backend` で project がある階層に移動します。
+2. `cd ToDoList.Backend` で project がある階層に移動します。
 3. `dotnet restore` をします。
 
 
 ## ローカルで立ち上げるcommand
-`dotnet run --project ToDoList`
+- `dotnet run --project ToDoList`
+- [ローカルホスト](http://localhost:5142/graphql/)にアクセス
 
 # DB を立ち上げる方法
 - `cd .\ToDoList\`
